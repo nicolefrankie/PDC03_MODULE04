@@ -16,5 +16,13 @@ namespace PDC03_MODULE04
         {
             InitializeComponent();
         }
+        private async void onNextPage(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new activity03Page2());
+        }
+        private async void onPreviousPage(object sender, EventArgs e)
+        {
+            await Navigation.PopModalAsync();
+        }
     }
 }

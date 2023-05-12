@@ -4,9 +4,12 @@
              x:Class="PDC03_MODULE04.activity03">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="Activity 03!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="Next" Clicked="onNextPage"/>
+            <Button Text="Previous" Clicked="onPreviousPage"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
